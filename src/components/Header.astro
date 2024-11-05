@@ -1,0 +1,48 @@
+---
+import { SocialIcon } from 'react-social-icons';
+
+const socialLinks = {
+  instagram: 'https://instagram.com/snakessslink',
+  x: 'https://x.com/snakessslink',
+};
+---
+
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnakesssLink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* 隙間を完全に除去するためのスタイル */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      width: 100%;
+      overflow-x: hidden;
+      font-family: 'Montserrat', sans-serif; /* Montserratをデフォルトのフォントに設定 */
+    }
+  </style>
+</head>
+<body>
+  <header style="
+    background-color: black; 
+    color: white; 
+    padding: 16px; 
+    text-align: center; 
+    width: 100vw; 
+    box-sizing: border-box;
+  ">
+    <h1 style="padding: 16px 0; margin: 0; font-weight: 700;font-size: 4.5em;">SnakesssLink</h1>
+    
+    <div style="margin-top: 16px;">
+      <SocialIcon url={socialLinks.instagram} bgColor="black" />
+      <SocialIcon url={socialLinks.x} bgColor="black" />
+    </div>
+  </header>
+</body>
+</html>
+
