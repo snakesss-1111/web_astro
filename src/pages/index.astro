@@ -17,7 +17,7 @@ const articles = import.meta.glob<Article>('./articles/*.md', { eager: true }) a
 
 <main>
   <section>
-    <h2>POST</h2>
+    <h2 style="font-size: 3rem;">POST</h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 24px;">
       {Object.keys(articles).map((articlePath) => {
         const { title, date, image } = articles[articlePath].frontmatter;

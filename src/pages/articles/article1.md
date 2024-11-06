@@ -6,11 +6,16 @@ description: "Roland TR-808が音楽に与えた影響と特徴を探る。808�
 keywords: "808, Roland TR-808, 音楽革命, 音楽の影響, ドラムマシン"
 ---
 
+<div style="position: absolute; top: 20px; left: 20px;">
+  <a href="/" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; text-decoration: none;">
+    Back
+  </a>
+</div>
 <div style="text-align: center;">
   <h1>808とは?</h1>
   <hr style="border: 2px solid black;"/> <!-- 黒い棒線を追加 -->
   <img src="/images/rc_tr-808_main.jpg" alt="Roland TR-808 Drum Machine" style="width: 100%; height: auto; max-width: 600px;"/>
-</div>
+
 
 <p>1980年代初頭、音楽の世界に登場した一台のドラムマシンが、現在の音楽シーンを変革させました。その名も<strong>Roland TR-808</strong>。当初、このドラムマシンは限定された機能と予想以上に低価格な設計が原因で評価が低かったのですが、その特徴的な低音とリズムは後に音楽の新しい基盤となり、現在に至るまでさまざまなジャンルで用いられています。</p>
 
@@ -27,8 +32,3 @@ keywords: "808, Roland TR-808, 音楽革命, 音楽の影響, ドラムマシン
 <h2>結論</h2>
 
 <p><strong>Roland TR-808</strong>は、音楽の歴史において革新的な存在でした。そのシンプルさと独特の音が、音楽制作の自由を広げ、新しいスタイルを生み出すきっかけとなりました。808のビートは今も多くの人々に影響を与え、音楽文化の一部として未来へと受け継がれていくでしょう。</p>
-
-
-
-
-
